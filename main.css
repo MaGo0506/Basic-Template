@@ -358,7 +358,7 @@ body {
   }
 
   .mainNav .logo {
-    margin-top: 25px;
+    margin: 25px 0 0 0;
     margin-left: 0;
     font-size: 3rem;
     height: 10%;
@@ -439,23 +439,24 @@ body {
   div.businessMain {
     text-align: left;
     padding: 50px 0 50px 0;
-    float: none;
   }
 
   .businessMain .businessUp {
     text-align: left;
-    margin-left: 10%;
+    margin-left: 7%;
   }
 
   .businessMain .businessUp p {
-    float: none;
     margin-left: 0;
     padding-bottom: 30px;
+    width: 60%;
   }
 
   .businessMain .businessUp a {
     font-size: 1.3rem;
-    margin: 20px 20% 20px 0;
+    margin: 20px 0 20px 10px;
+    width: 30%;
+    text-align: center;
   }
 
   .businessMain .businessDown .logoImage {
@@ -599,11 +600,13 @@ body {
   .businessMain .businessUp p {
     float: none;
     padding-bottom: 30px;
+    width: 100%;s
   }
 
   .businessMain .businessUp a {
     font-size: 1.3rem;
     margin:  20px;
+    width: 80%;
   }
 
   .businessMain .businessDown .logoImage {
